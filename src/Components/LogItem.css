@@ -1,0 +1,23 @@
+.LogItem{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #fcbf49;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.Contents{
+    font-weight: bold;
+    flex: auto;
+    text-align: center;
+}
+
+.Desc{
+    font-size: 18px;
+    color: #194B49;
+}
+
+.Time{
+    color: #D62828;
+}

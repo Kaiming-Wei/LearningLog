@@ -1,0 +1,25 @@
+
+.MyDate{
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    margin: auto;
+}
+
+.Month{
+    height: 25px;
+    line-height: 25px;
+    background-color: #D62828;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Day{
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
