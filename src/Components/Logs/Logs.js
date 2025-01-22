@@ -4,11 +4,17 @@ import Card from '../../UI/Card/Card';
 
 
 const Logs = (props) => {
-    const LogData = props.MockData.map((element)=>{
-        return <LogItem key={element.id} date={element.date} desc={element.desc} time={element.time} />
-    })
+    let LogData = props.MockData.map((element)=>{
+        return <LogItem key={element.id} 
+                        date={element.date} 
+                        desc={element.desc} 
+                        time={element.time}
+                        deleteById={()=> props.deleteById(element.id)} />
+    });
 
-
+    if(LogData.length === 0){
+        LogData = <p className='Empty-Log'>No Study-Logs!</p>
+    }
 
 
     return(

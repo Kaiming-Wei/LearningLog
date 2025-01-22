@@ -19,3 +19,20 @@
 .Time{
     color: #D62828;
 }
+
+
+.delete-x{
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.delete-x:hover{
+    color: red;
+    cursor: pointer;
+    transform: rotate(0.5turn);
+}

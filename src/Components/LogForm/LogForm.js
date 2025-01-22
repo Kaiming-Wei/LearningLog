@@ -33,7 +33,6 @@ const LogForm = (props) =>{
             desc: inputDesc,
             time: inputTime
         }
-        console.log(newLog);
 
         setInputDate('');
         setInputDesc('');

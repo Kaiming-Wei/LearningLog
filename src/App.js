@@ -31,11 +31,18 @@ const App = () => {
         });
     }
 
+    const deleteById = (id) => {
+        setMockData((prevData) => {
+            return prevData.filter(item => item.id !== id)
+        });
+        
+    }
+
 
     return(
         <div className='App'>
             <LogForm submitData={submitData}/>
-            <Logs MockData={MockData}/>
+            <Logs MockData={MockData} deleteById={deleteById}/>
         </div>
     );
 };

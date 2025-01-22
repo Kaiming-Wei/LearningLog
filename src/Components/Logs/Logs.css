@@ -1,3 +1,11 @@
 .logs{
     background-color: #EAE2B7;
 }
+
+.Empty-Log{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
