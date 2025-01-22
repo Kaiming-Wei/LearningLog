@@ -1,0 +1,46 @@
+
+.LogWrapper{
+    padding: 10px 10px;
+    background-color: #EAE2B7;
+}
+
+.FormItem{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    flex-flow: row;
+    margin: 10px 0;
+}
+
+.FormItem input{
+    margin-right: 40px;
+    flex: auto;
+    text-align: center;
+    
+}
+
+.FormItem label{
+    width: 100px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.Form-btn{
+    text-align: center;
+}
+
+
+.Form-btn button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition:0.2s;
+    background-color: #fcbf49;
+}
+
+.Form-btn button:hover{
+    background-color: red;
+}
