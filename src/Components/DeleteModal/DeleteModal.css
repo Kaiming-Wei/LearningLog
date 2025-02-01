@@ -1,0 +1,43 @@
+.DeleteModal{
+    background-color: #EAE2B7;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 30% auto;
+    height: 200px;
+    width: 400px;
+}
+
+.Content{
+    height: 120px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: #fcbf49;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.btn-wrapper{
+    height: 80px;
+    
+    display: flex;
+}
+
+.btn{
+    width: 200px;
+    text-align: center;
+}
